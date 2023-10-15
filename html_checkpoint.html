@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="./html_checkpoint.html" target="_self"><nav>Home</nav></a>
+        <a href="#about"><nav>About</nav></a>
+        <a href="#work"><nav>Work</nav></a>
+        <a href="./cv.pdf" target="_blank" ><nav>Resume</nav></a>
+        <a href="#contact"><nav>Contact</nav></a>
+        <hr>
+    </header>
+
+    <section>
+        <h2>I am Marwan Safey</h2>
+        <p>I'm Marwan, working in the IT field more than 10 years of experience</p>
+        <img src="./Marwan.JPG" alt="My Photo" width="100px">
+    </section>
+    <hr>
+
+    <section><a name="about"></a>
+        <h2>About</h2>
+        <p>I’m currently working as a senior escalation engineer. I have over 10 years of experience, during that 
+            time, I have gained experience in different fields (Linux, Networks, Virtualization, Web Development).</p>
+        <b><u>Skills</u></b>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Reactjs</li>
+            <li>Nodejs</li>
+            <li>MongoDB</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section><a name="work"></a>
+        <h2>Work</h2>
+        <p>Kindly find out my work below and i wish you like it</p>
+        <a href="./webDesigns.JPG" target="_blank">Some Of My Works</a>
+        <br><br>
+        <iframe width="500px" height="400px" src="https://www.youtube.com/embed/CXafv8ydFpg" title="Thrive Agency - Web Design Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <hr>
+
+    <section><a name="contact"></a>
+    <h2>Contact</h2>
+    <ul>
+        <li><b>Address:</b> Egypt, Cairo</li>
+        <li><b>Email:</b> <a href="mailto:o@marwan.safey@hotmail.com"> Marwan.Safey@hotmail.com</a></li>
+        <li><b>Phone Number:</b> 01002565624</li>
+    </ul>
+    <form action="action.php" method="post">
+        <label for="Aim">Select Your Purpose</label> 
+        <select name="Aim" >
+            <option value="">--Select Your Aim--</option>
+            <option value="Work">Work</option>
+            <option value="Bussinese">Bussinese</option>
+            <option value="Personnal">Personnal</option>
+            <option value="Others">Others</option>
+        </select>
+        <br>
+        <h3>If you have multi porpose</h3>
+        <input id="Work" type="checkbox" name="obj" value="Work">
+        <label for="work">Work</label>
+        <br>
+        <input id="Bussinese" type="checkbox" name="obj" value="Bussinese">
+        <label for="Bussinese">Bussinese</label>
+        <br>
+        <input id="Personnal" type="checkbox" name="obj" value="Personnal">
+        <label for="Personnal">Personnal</label>
+        <br>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message here for other purpose"></textarea>
+    </form>
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; All Rights Reserved | Designed by Marwan Safey</p>
+    </footer>
+</body>
+</html>
