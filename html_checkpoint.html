@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="head">
+        <div class="navbar">
         <a href="./html_checkpoint.html" target="_self"><nav>Home</nav></a>
         <a href="#about"><nav>About</nav></a>
         <a href="#work"><nav>Work</nav></a>
         <a href="./cv.pdf" target="_blank" ><nav>Resume</nav></a>
         <a href="#contact"><nav>Contact</nav></a>
+        </div>
         <hr>
     </header>
 
@@ -23,23 +29,30 @@
     </section>
     <hr>
 
-    <section><a name="about"></a>
+    <section class="title"><a name="about"></a>
         <h2>About</h2>
         <p>I’m currently working as a senior escalation engineer. I have over 10 years of experience, during that 
             time, I have gained experience in different fields (Linux, Networks, Virtualization, Web Development).</p>
         <b><u>Skills</u></b>
-            <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Reactjs</li>
-            <li>Nodejs</li>
-            <li>MongoDB</li>
-        </ul>
+        <div class="about">
+            <div>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Reactjs</li>
+                    <li>Nodejs</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div>
+                <img src="skills.gif" alt="Computer man" >
+            </div>
+        </div>
     </section>
     <hr>
 
-    <section><a name="work"></a>
+    <section class="title"><a name="work"></a>
         <h2>Work</h2>
         <p>Kindly find out my work below and i wish you like it</p>
         <a href="./webDesigns.JPG" target="_blank">Some Of My Works</a>
@@ -48,7 +61,7 @@
     </section>
     <hr>
 
-    <section><a name="contact"></a>
+    <section class="title"><a name="contact"></a>
     <h2>Contact</h2>
     <ul>
         <li><b>Address:</b> Egypt, Cairo</li>

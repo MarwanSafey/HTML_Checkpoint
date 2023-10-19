@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 235, 205, 0.5);
+    }
+
+
+.head {
+    margin-bottom: 80px;
+}
+
+.title h2 {
+    color: #f2f2f2;;
+    background-color: #333;
+    font-style: italic;
+    padding: 15px;
+    border: 2px solid blue;
+    margin: 10px;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: inline-flex;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+
+nav {
+    padding: 15px;
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+nav:hover {
+    color: red;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+.skills {
+    margin-right: 100px;
+}
+
+.skills li:hover {
+    font-weight: bold;
+    color: blue;
+}
